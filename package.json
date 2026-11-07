@@ -1,0 +1,16 @@
+{
+  "name": "qa-cypress-serverest",
+  "version": "1.0.0",
+  "description": "Testes automatizados de API e interface com Cypress, usando o ServeRest como sistema de estudo",
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "cypress run",
+    "test:api": "cypress run --spec \"cypress/e2e/api/**/*.cy.js\"",
+    "test:ui": "cypress run --spec \"cypress/e2e/ui/**/*.cy.js\""
+  },
+  "keywords": ["cypress", "qa", "testes", "api", "e2e", "serverest"],
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^16.2.0"
+  }
+}
